@@ -129,13 +129,13 @@ class GoogleTimersCard extends HTMLElement {
     const STRING_HOURS = " h. "
     const STRING_MINUTES = " mins. "
     const STRING_SECONDS = " secs."
-    var WEEKDAYS = { 1 : "mon.",
-                 2 : "tue.",
-                 3 : "wed.",
-                 4 : "thu.",
-                 5 : "fri.",
-                 6 : "sat.",
-                 0 : "sun."
+    var WEEKDAYS = { 1 : "lun.",
+                 2 : "mar.",
+                 3 : "mer.",
+                 4 : "jeu.",
+                 5 : "ven.",
+                 6 : "sam.",
+                 0 : "dim."
                };
 
     // Get's timedelta between now and fire_time
